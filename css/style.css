@@ -1,0 +1,155 @@
+.fa-twitter:hover{
+	color: red;
+}
+.fa-facebook-f:hover{
+	color: red;
+}
+.fa-github:hover{
+	color: red;
+}
+.fa-linkedin:hover{
+	color: red;
+}
+.fa-google-plus:hover{
+	color: red;
+}
+.fa-heart:hover{
+	color: red;
+}
+.fa-shopping-cart:hover{
+	color: red;
+}
+
+.list::after{
+	content:" /" ;
+}
+
+.middle{
+	margin: 0 auto;
+}
+
+.nav-link{
+	color: black;
+}
+
+.nav-link:hover{
+	color: red;
+}
+
+.second{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.button-1{
+		width: 150%;
+		background-color: #CF1F1F;
+		padding: 30px;
+		text-align: center;	
+			
+}
+
+.shine{
+	color: orange;
+}
+
+.owl-theme{
+	padding-top: -200px;
+}
+
+.newsletter_email{
+	width: 92%;
+	position: absolute;
+	height: 2.5rem;
+    border: 1px solid #e0e0e0;
+    padding: 0 2rem;
+    padding-right: 12rem;
+    font-size: 1rem;
+    color: #929292;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    background: #fff;
+}
+
+.settings{
+	position: relative;
+	float: right;
+	text-transform: uppercase;
+    border-radius: 0 25px 25px 0;
+    padding-left: 0;
+    height: 2.5rem;
+    border: 1px transparent;
+}
+
+.effect{
+	line-height: 1.2rem;
+    padding: 0;
+    display: block;
+    text-transform: capitalize;
+    color: #555555;
+}
+
+.about{
+	background-image: url(../images/bg-breadcrumbs.jpg);
+	background-repeat: no-repeat 0 0;
+    background-size: cover;
+    min-height: 13rem;
+    padding-top: 5rem;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+}
+
+.panel{
+	margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #ddd;
+    padding: 15px; 
+}
+
+
+.required{
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 15px;
+}
+
+.control-label::before{
+	content: '* ';
+    color: #F00;
+    font-weight: bold;
+}
+
+.control-label{
+	color: #555555;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+legend{
+	display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 1.8rem;
+    padding: 0.7rem 0;
+}
+
+.rang1{
+	color: #fff;
+    background-color: #222;
+    border-color: #222;
+    
+}
+
+
+

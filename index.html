@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	Dynamic website</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css./style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="top border-bottom" style="height: 50px;">
+		<div class="container ">
+			<nav class="navbar navbar-expand-lg navbar-light " class="container-md bg-light" >
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+	  			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto nav-flex-icons">
+				          <li class="nav-item active">
+				            <a href="https://twitter.com" class="nav-link waves-effect waves-light">
+				              <i class="fab fa-twitter"></i>
+				            </a>
+				          </li>
+				          <li class="nav-item active">
+				            <a href="https://facebook.com" class="nav-link waves-effect waves-light">
+				              <i class="fab fa-facebook-f"></i>
+				            </a>
+				          </li>
+				          <li class="nav-item active">
+				            <a href="https://github.com" class="nav-link waves-effect waves-light">
+				              <i class="fab fa-github"></i>
+				            </a>
+				          </li>
+				          <li class="nav-item active">
+				            <a href="https://linkedin.com" class="nav-link waves-effect waves-light">
+				              <i class="fab fa-linkedin"></i>
+				            </a>
+				          </li>
+				          <li class="nav-item active">
+				            <a href="https://plus.google.com" class="nav-link waves-effect waves-light">
+				              <i class="fab fa-google-plus"></i>
+				            </a>
+				          </li>
+				    </ul>
+				    <div class="dropdown">
+						<button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						language
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">English</a>
+							<a class="dropdown-item" href="#">Germany</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Currency
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="Vegetables.html">$ CAD</a>
+							<a class="dropdown-item" href="usd.html">$ USD</a>
+							<a class="dropdown-item" href="inr.html">₹ INR</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</nav>
+	<div class="container example" style="margin: 0px 109.5px;padding: 0px 15px;">
+		<nav class="nav second item1" >
+			<div id="logo" class="float-left" style="margin-top: -5px">
+			<h1>The farming ease</h1>
+			</div>
+			<div class="middle">
+			<ul class="nav justify-content-center font-weight-bold float-left pl-5">
+			  <li class="nav-item ">
+			    <a class="nav-link" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="special.html">Specials</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="aboutus.html">About us</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link " href="contact.html">Contact us</a>
+			  </li>
+			</ul>
+			</div>
+			<div class="last float-right">
+			<ul class="nav justify-content-end">
+				<li class="nav-item " >
+				    <a class="nav-link list p-0 pt-2" href="register.html">REGISTER</a>
+				</li >
+				<li class="nav-item ">
+				    <a class="nav-link p-0 pt-2" href="login.html">LOGIN</a>
+				</li>
+				<li class="nav-item">
+				    <a class="nav-link" href="#"><i class="far fa-heart"></i></a>
+				</li>
+				<li class="nav-item">
+				    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+				</li>
+			</ul>
+			</div>
+		</nav>
+		<nav class="nav third">
+			<div class="dropdown ">
+						<button class="btn  dropdown-toggle  btn-lg font-weight-bold button-1 visible " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 14px;padding: 12px 20px;background-color: #CF1F1F;border-radius: 10px 10px 0px 0px;color: white;"><i class="fas fa-bars"></i>
+						  All Cattegories
+						</button>
+						<div class="dropdown-menu " style="width: 150%;" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="Vegetables.html">
+								<img class="float-left" src="./images/cauliflower.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Vegetables</span>
+							</a>
+							<a class="dropdown-item" href="Vegetables.html">
+								<img class="float-left" src="./images/harvest.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Fruits</span>
+							</a>
+							<a class="dropdown-item" href="salad.html">
+								<img class="float-left" src="./images/salad.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Salads</span>
+							</a>
+							<a class="dropdown-item" href="Milk.html">
+								<img class="float-left" src="./images/cheese.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Milk</span>
+
+							</a>
+							<a class="dropdown-item" href="Milk.html">
+								<img class="float-left" src="./images/bread.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Butter</span>
+
+							</a>
+							<a class="dropdown-item" href="frozen.html">
+								<img class="float-left" src="./images/frozen.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">frozen food</span>
+
+							</a>
+						</div>
+					</div>
+			<div class="middle bg-transparent border rounded-pill example" >
+			<ul class="nav justify-content-center font-weight-bold rounded-pill ">
+			 	<form class="form-inline my-2 my-lg-0">
+			 		<div class="dropdown" style="background-color: ;">
+						<button class="btn bg-light  dropdown-toggle btn-lg font-weight-light" style="border-radius: 25px 0px 0px 25px;height: 50px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Select a catagory
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="Vegetables.html">
+								<img class="float-left" src="./images/cauliflower.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Vegetables</span>
+							</a>
+							<a class="dropdown-item" href="Vegetables.html">
+								<img class="float-left" src="./images/harvest.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Fruits</span>
+							</a>
+							<a class="dropdown-item" href="salad.html">
+								<img class="float-left" src="./images/salad.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Salads</span>
+							</a>
+							<a class="dropdown-item" href="Milk.html">
+								<img class="float-left" src="./images/cheese.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Milk</span>
+
+							</a>
+							<a class="dropdown-item" href="Milk.html">
+								<img class="float-left" src="./images/bread.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">Butter</span>
+
+							</a>
+							<a class="dropdown-item" href="#frozen.html">
+								<img class="float-left" src="./images/frozen.png" style="width: 15px;padding-top: 4px;">
+								<span style="text-align: center;padding-left: 10px;">frozen food</span>
+
+							</a>
+						</div>
+					</div>
+      				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="border: none;height: 50px;margin: 0px 0px 0px 0px;">
+      				<button class="btn btn-default btn-lg btn-danger  " style="border: none;border-radius: 0px 25px 25px 0px;height: 50px;" type="submit"><i class="fas fa-search"></i></button>
+    			</form>
+			</ul>
+			</div>
+			<div class="last float-right" >
+			<ul class="nav justify-content-end p-0 pr-3" style="padding-top: -10px;line-height: 1rem;">
+				<li class="nav-item " >
+				    <a class="nav-link p-0 pt-2" href="#"><i class="fas fa-phone-volume" style="font-size: 40px;"></i></a>
+				</li >
+				<li class="nav-item p-0 " >
+				    <a class="nav-link  " style="font-size: 14px;"href="#"><p class="d-inline">514-984-6706 <br>	customer support</p></a>
+				</li >
+			</ul>
+		</nav>
+	</div>
+	<div class="container pt-4 ">
+		<div class="row" >
+			<div class="col-3"></div>
+			<div class="col-9">
+				<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+					<ol class="carousel-indicators">
+					    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  					</ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				        <img src="./images/slide3.jpg" class="d-block w-100 pr-3" style="height: 478px;" alt="...">
+				        	<div class="carousel-caption d-none d-md-block" style="color: red;">
+						        <h5>Fresh fruit salad</h5>
+						        <p>Salad made from fresh fruits came directly from the farms. </p>
+      						</div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./images/slide1.jpg" class="d-block w-100 pr-3" style="height: 478px;" alt="...">
+				     		<div class="carousel-caption d-none d-md-block">
+						        <h5>100% Fresh Strawberries</h5>
+						        <p>Fresh and cheap Strawberries .</p>
+      						</div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="./images/slide2.jpg" class="d-block w-100 pr-3" style="height: 478px;" alt="...">
+				      		<div class="carousel-caption d-none d-md-block" style="color: #4d4c7d;">
+						        <h5>Organic Vegetables</h5>
+						        <p>100% Organic vegetables specialy for you.</p>
+      						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container pt-5 pb-5" >
+		<div class="row">
+			<div class="col-3">
+				<div class="media position-relative">
+					<img src="./images/icon3.jpg" class="p-2" alt="..." >
+					<div class="media-body">
+						<h5 class="mt-0" style="font-size: 16px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">100% PAYMENT SECURE</h5>
+						<p style="font-size: 13px;font-family: 'Work Sans', sans-serif;font-weight: 400;">We ensure secure payment with PEV</p>
+  					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="media position-relative">
+					<img src="./images/icon4.jpg" class="p-2" alt="...">
+					<div class="media-body">
+						<h5 class="mt-0" style="font-size: 16px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">FREE SHIPPING</h5>
+						<p style="font-size: 13px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">Free shipping on all US order or order above $200</p>
+  					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="media position-relative">
+					<img src="./images/icon1.jpg" class="p-2" alt="...">
+					<div class="media-body">
+						<h5 class="mt-0" style="font-size: 16px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">SUPPORT 24/7</h5>
+						<p style="font-size: 13px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">Contact us 24 hours a day, 7 days a week</p>
+  					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="media position-relative">
+					<img src="./images/icon2.jpg" class="p-2" alt="...">
+					<div class="media-body">
+						<h5 class="mt-0" style="font-size: 16px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">30 DAYS RETURN</h5>
+						<p style="font-size: 13px;font-family: 'Work Sans', sans-serif ;font-weight: 400;">Simply return it within 30 days for an exchange</p>
+  					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-5 ">
+				<div class="col-4 banner" >
+					<img  src="./images/img1.jpg">
+				</div>
+				<div class="col-5 " >
+					<img  src="./images/img2.jpg">
+				</div>
+				<div class="col-3 ">
+					<img style="width: 100%;" src="./images/img3.jpg">
+				</div>
+		</div>
+	</div>
+	<div class="container" >
+		<div class="container w-25 float-left">
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div>
+					<i class="fas fa-chevron-left float-left"></i>
+					<i class="font-weight-bold ml-4 mb-2">FEATURED PRODUCTS</i>
+					<i class="fas fa-chevron-right float-right "></i>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon secondry-link" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next bg-black" href="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					</a>
+				</div>
+				<div class="carousel-inner" >
+				    <div class="carousel-item active mt-3">
+				      	<div class="media">
+						  	<img src="./img/pic1.jpg" class="mr-3 mb-3 " style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Lettuce</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+						<div class="media">
+						  	<img src="./img/pic2.jpg" class="mr-3 mb-3" style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Spinach</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+						<div class="media">
+						  	<img src="./img/pic3.jpg" class="mr-3 mb-3" style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Tomatos</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+						<div class="media">
+						  	<img src="./img/pic4.jpg" class="mr-3 mb-3" style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Bottle Gourd</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine" ></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+				    </div>
+				    <div class="carousel-item  mt-3">
+				      	<div class="media">
+						  	<img src="./img/pic5.jpg" class="mr-3 mb-3 " style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Brinjals</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+						<div class="media">
+						  	<img src="./img/pic6.jpg" class="mr-3 mb-3" style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Mangoes</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+						<div class="media">
+						  	<img src="./img/pic7.jpg" class="mr-3 mb-3" style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Pomegranate</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+						<div class="media">
+						  	<img src="./img/pic8.jpg" class="mr-3 mb-3" style="width: 90px;height: 90px;" alt="...">
+						 	<div class="media-body">
+							    <h5 class="mt-0">Brocolli</h5>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star shine" ></span>
+							    <span class="far fa-star shine"></span>
+							    <span class="far fa-star"></span>
+							    <span class="far fa-star"></span>
+							    <h6><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20</span><span class="" style="text-decoration: line-through;font-style: bold;">$300</span></h6>
+							</div>
+						</div>
+				    </div>
+				</div>
+				<img class="pt-5 w-100" src="./images/img4.jpg">
+			</div>
+			<div id="carouselExampleFade"  class="carousel slide carousel-fade pt-5" data-ride="carousel">
+					<div>
+						<i class="fas fa-chevron-left float-left"></i>
+						<i class="font-weight-bold ml-4 mb-2">FEATURED PRODUCTS</i>
+						<i class="fas fa-chevron-right float-right "></i>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon secondry-link" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next bg-black" href="#carouselExampleControls" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						</a>
+					</div>
+					<div class="carousel-inner" style="line-height: 1rem;">
+					    <div class="carousel-item active">
+					      	<img src="./images/left9.jpg" class="d-block w-100">
+					      	<p class="text-center">Lettus</p>
+					      	<p class="text-center">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+					    </div>
+					    <div class="carousel-item">
+					      	<img src="./images/left10.jpg" class="d-block w-100">
+					      	<p class="text-center">Spinach</p>
+					      	<p class="text-center">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+					    </div>
+					    <div class="carousel-item ">
+					      	<img src="./images/left11.jpg" class="d-block w-100">
+					      	<p class="text-center">Tomatos</p>
+					      	<p class="text-center">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+					    </div>
+					</div>
+					  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+			</div>
+			<h5 class="pt-2"  style="float:left;">Testimonials</h5>
+			<div  class="owl-carousel owl-theme teesra w-100 mt-5 bg-light" style="padding: 0px;margin-top: 100px;">
+				<div class="item w-100 " style="padding-left: 0;width: 100%;">
+					<img src="./images/test1.png" style="width: 100px;height: 100px; border-radius: 50%;padding-top: -50" class="align-middle m-auto">
+					<p class="pt-3" style="width: 100%;position: relative;text-align: center;">I'm so happy with all of the themes, great support, could not wish for more. These people are geniuses! Kudo's from the Netherlands!..</p>
+					<p style="font-weight: bold;text-align: center;">Lindsy Neloms</p>
+				</div>
+				<div class="item w-100 " style="padding-left: 0;width: 100%;">
+					<img src="./images/test2.png" style="width: 100px;height: 100px; border-radius: 50%;" class="align-middle m-auto">
+					<p class="pt-3" style="width: 100%;position: relative;text-align: center;">I'm so happy with all of the themes, great support, could not wish for more. These people are geniuses! Kudo's from the Netherlands!..</p>
+					<p style="font-weight: bold;text-align: center;">Rebecka Filson</p>
+				</div>
+				<div class="item w-100 " style="padding-left: 0;width: 100%;">
+					<img src="./images/test3.png" style="width: 100px;height: 100px; border-radius: 50%;" class="align-middle m-auto">
+					<p class="pt-3" style="width: 100%;position: relative;text-align: center;">I'm so happy with all of the themes, great support, could not wish for more. These people are geniuses! Kudo's from the Netherlands!..</p>
+					<p style="font-weight: bold;text-align: center;">Amber Laha</p>
+				</div>
+			</div>
+		</div>
+		<div class="container w-75 float-left" >
+				<div >
+					<i class="font-weight-bold ml-4 mb-2">NEW PRODUCTS</i>
+				</div>
+				<div  class="owl-carousel owl-theme pt-3 phela">
+				    <div class="item bg-blue  w-100 pr-2" style="margin-bottom: 0;">
+				    		<img src="./images/left9.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Lettus</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-salmon w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left10.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Spinach</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center" ><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-gold w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left11.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Tomatos</p>
+					      	<p class="text-center"style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+					</div>
+				    <div class="item bg-pink w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left15.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Bottle gourd</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-green w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left16.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Peas</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				</div>
+				<div class="owl-carousel owl-theme pt-3 phela" >
+				    <div class="item bg-blue  w-100 pr-2" style="margin-bottom: 0;">
+				    		<img src="./images/left9.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Lettus</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-salmon w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left10.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Spinach</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center" ><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-gold w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left11.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Tomatos</p>
+					      	<p class="text-center"style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-pink w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left15.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Bottle gourd</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				    <div class="item bg-green w-100 pr-2"  style="margin-bottom: 0;">
+				    		<img src="./images/left16.jpg" style="width: 259.33px;height: 259.33;">
+				    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Peas</p>
+					      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+					      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+							</h6>
+				    </div>
+				</div>
+				<div class="container">
+					<div class="row pt-3">
+						<div class="col-7">
+							<img src="./images/left12.jpg">
+						</div>
+						<div class="col-5">
+							<img src="./images/left13.jpg">
+						</div>
+					</div>
+				</div>
+				<div style="width: 100%;" class="pt-5">
+					<i  class="font-weight-bold ml-4 mb-2">NEW PRODUCTS</i>
+					<div  class="owl-carousel owl-theme doosra " style="padding-left: 0px;">
+						<div class="item " >
+							<div class="media w-100">
+							  	<img src="./images/left14.jpg" style="width: 160px;height: 160px;">
+							 	<div class="media-body w-100 " style="height: 160px;">
+								    <p class="m-0 pl-2">Lettus</p>
+								    <p class="pt-2 m-0 pl-2">Others</p>
+								    <h6 class="pt-2 m-0 pl-2" ><span class="pl-1 pr-2" style="color: red;font-style: bold">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span></h6>
+								</div>
+							</div>
+						</div>
+						<div class="item" >
+							<div class="media">
+							  	<img src="./images/left15.jpg" style="width: 160px;height: 160px;">
+							 	<div class="media-body w-100 " style="height: 160px;">
+								    <p class="m-0 pl-2">Bottle gourd</p>
+								    <p class="pt-2 m-0 pl-2">Others</p>
+								    <h6 class="pt-2 m-0 pl-2" ><span class="pl-1 pr-2" style="color: red;font-style: bold">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span></h6>
+								</div>
+							</div>
+						</div>
+						<div class="item " >
+							<div class="media">
+							  	<img src="./images/left16.jpg" style="width: 160px;height: 160px;">
+							 	<div class="media-body w-100 " style="height: 160px;">
+								    <p class="m-0 pl-2">Peas</p>
+								    <p class="pt-2 m-0 pl-2">Others</p>
+								    <h6 class="pt-2 m-0 pl-2" ><span class="pl-1 pr-2" style="color: red;font-style: bold">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span></h6>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="owl-carousel owl-theme doosra "  style="padding-left: 0px;">
+						<div class="item " >
+							<div class="media w-100">
+							  	<img src="./img/pic8.jpg" style="width: 160px;height: 160px;">
+							 	<div class="media-body w-100 " style="height: 160px;">
+								    <p class="m-0 pl-2">Brocolli</p>
+								    <p class="pt-2 m-0 pl-2">Others</p>
+								    <h6 class="pt-2 m-0 pl-2" ><span class="pl-1 pr-2" style="color: red;font-style: bold">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span></h6>
+								</div>
+							</div>
+						</div>
+						<div class="item" >
+							<div class="media">
+							  	<img src="./images/left10.jpg" style="width: 160px;height: 160px;">
+							 	<div class="media-body w-100 " style="height: 160px;">
+								    <p class="m-0 pl-2">Spinach</p>
+								    <p class="pt-2 m-0 pl-2">Others</p>
+								    <h6 class="pt-2 m-0 pl-2" ><span class="pl-1 pr-2" style="color: red;font-style: bold">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span></h6>
+								</div>
+							</div>
+						</div>
+						<div class="item " >
+							<div class="media">
+							  	<img src="./images/left11.jpg" style="width: 160px;height: 160px;">
+							 	<div class="media-body w-100 " style="height: 160px;">
+								    <p class="m-0 pl-2">Tomatoes</p>
+								    <p class="pt-2 m-0 pl-2">Others</p>
+								    <h6 class="pt-2 m-0 pl-2" ><span class="pl-1 pr-2" style="color: red;font-style: bold">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span></h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-100">
+						<i  class="font-weight-bold ml-4 mb-2">OUR PRODUCTS</i>
+				</div>
+				<div  class="owl-carousel owl-theme pt-3 chotha mb-5">
+				    <div class="item bg-blue  w-100 pr-2" style="margin-bottom: 0;">
+			    		<img src="./images/left9.jpg" style="width: 189.5px;height: 189.5;">
+			    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Lettus</p>
+				      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+				      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+						</h6>
+				    </div>
+				    <div class="item bg-salmon w-100 pr-2"  style="margin-bottom: 0;">
+			    		<img src="./images/left10.jpg" style="width: 189.5px;height: 189.5;">
+			    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Spinach</p>
+				      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+				      	<h6 class="text-center" ><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+						</h6>
+				    </div>
+				    <div class="item bg-gold w-100 pr-2"  style="margin-bottom: 0;">
+			    		<img src="./images/left11.jpg" style="width: 189.5px;height: 189.5;">
+			    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Tomatos</p>
+				      	<p class="text-center"style="margin-bottom: 0.5rem">Others</p>
+				      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+						</h6>
+					</div>
+				    <div class="item bg-pink w-100 pr-2"  style="margin-bottom: 0;">
+			    		<img src="./images/left15.jpg" style="width: 189.5px;height: 189.5;">
+			    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Bottle Gourd</p>
+				      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+				      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+						</h6>
+				    </div>
+				    <div class="item bg-green w-100 pr-2"  style="margin-bottom: 0;">
+			    		<img src="./images/left16.jpg"style="width: 189.5px;height: 189.5;">
+			    		<p class="text-center" style="font-weight: bold;margin-bottom: 0.5rem">Peas</p>
+				      	<p class="text-center" style="margin-bottom: 0.5rem">Others</p>
+				      	<h6 class="text-center"><span class="pl-1 pr-2" style="color: red;font-style: bold;">$20.00</span><span class="" style="text-decoration: line-through;font-style: bold;">$300.00</span>
+						</h6>
+				    </div>
+				</div>
+		</div>
+	</div>
+		<div class="container mt-5"  style="position: relative;">
+			<div class=" rounded pt-5 " style="padding-top: 2.5rem;padding-bottom: 2.3rem;display: flex;border:1px solid lightgrey;" >
+					<div class="text-black-50" style="width: 223.59px;height:60px;float: left;">
+						<img src="./images/logo1.jpg">
+					</div>
+					<div class="text-black-50" style="width: 223.59px;height:60px;float: left;">
+						<img src="./images/logo2.jpg">
+					</div>
+					<div class="text-black-50" style="width: 223.59px;height:60px;float: left;">
+						<img src="./images/logo3.jpg">
+					</div>
+					<div class="text-black-50" style="width: 223.59px;height:60px;float: left;">
+						<img src="./images/logo4.jpg">
+					</div>
+					<div class="text-black-50" style="width: 223.59px;height:60px;float: left;">
+						<img src="./images/logo5.jpg">
+					</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-4">
+						<h1 style="margin-bottom: 24px;">The farming ease</h1>
+						<p style="color: font-size: 1.4rem;color: #929292;line-height: 1.5rem;font-weight:400;margin: 0 0 2rem;">
+						We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
+						<p style="font-size: 1.0rem;color: #222222;line-height: 1.5rem;margin: 0 0 0.5rem;font-weight: 400;">
+						<b>Address:</b> Address 4	</p>
+						<p style="font-size: 1.0rem;color: #222222;line-height: 1.5rem;margin: 0 0 0.5rem;font-weight: 400;">
+						<b>Email:</b> manjindersinghdosanjh@gmail.com</p>
+						<p style="font-size: 1.0rem;color: #222222;line-height: 1.5rem;margin: 0 0 0.5rem;font-weight: 400;">
+							<b>Call us:</b> 514-984-6706</p>
+					</div>
+					<div class="col-2">
+						<h6 style="font-size: 1.5rem;text-transform: capitalize;margin-top: 0;margin-bottom: 2rem;letter-spacing: 0;font-weight: 500;">Information</h6>
+						<p class="effect">About Us</p>
+						<p class="effect">Delivery Information</p>
+						<p class="effect">Privacy Policy</p>
+						<p class="effect">Terms & Conditions</p>
+						<p class="effect">Contact Us</p>
+						<p class="effect">Site Map</p>
+					</div>
+					<div class="col-2">
+						<h6 style="font-size: 1.5rem;text-transform: capitalize;margin-top: 0;margin-bottom: 2rem;letter-spacing: 0;font-weight: 500;">Extras</h6>
+						<p class="effect">Brands</p>
+						<p class="effect">Gift Certificates</p>
+						<p class="effect">Affiliate</p>
+						<p class="effect">Specials</p>
+						<p class="effect">Returns</p>
+						<p class="effect">Order History</p>
+					</div>
+					<div class="col-4">
+						<h6 style="font-size: 1.5rem;text-transform: capitalize;margin-top: 0;margin-bottom: 2rem;letter-spacing: 0;font-weight: 500;">Sign Up Newsletter</h6>
+						<p style="width:70%;color: font-size: 1.4rem;color: #929292;line-height: 1.5rem;font-weight:400;margin: 0 0 2rem;">
+						Get updates by subscribe our weekly newsletter</p>
+						<form action="form1.php" class="content" method="post">
+				            <input type="text" class="newsletter_email" name="mail_subscribe" value="" placeholder="Email address...">
+				            <button type="button" class=" btn-danger settings " onclick="ptnewsletter.saveMail($(this));">Subscribe</button>
+        				</form>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" style="padding: 1.5rem 0 1.0rem;margin-top: 2rem;background-color:#cf1f1f;">
+				<div class="row" style="  margin-right: 10%; margin-left: 10%;">
+					<div class="col-6">
+						<p class="text-powered" style="color: #fff;">Copyright  © 2020 <a href="http://plazathemes.com">Plazathemes</a>. All Rights Reserved.Design by <a href="http://plazathemes.com">Plazathemes.com</a></p>
+					</div>
+					<div class="col-6">
+						<div class="footer-paypal" style="text-align: right;">
+								<img src="./images/footer1.jpg" alt="paypal">
+								<img src="./images/footer2.jpg" alt="paypal1">
+								<img src="./images/footer3.jpg" alt="paypal2">
+								<img src="./images/footer4.jpg" alt="paypal3">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script type="text/javascript">
+				AOS.init();
+			</script>
+					<script>
+			  $('.phela').owlCarousel({
+			    stagePadding: 0,
+			   	loop:false,
+			    margin:0,
+			    nav:false,
+			    dots:true,
+			    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:3
+		        }
+	    		}
+				})
+			</script>
+
+			<script >
+				$('.doosra').owlCarousel({
+			    stagePadding: 0,
+			   	loop:false,
+			    margin:0,
+			    nav:false,
+			    dots:true,
+			    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:2
+		        },
+		        1000:{
+		            items:2
+		        }
+    		}
+			})
+
+				$('.teesra').owlCarousel({
+			    stagePadding: 0,
+			   	loop:false,
+			    margin:0,
+			    nav:false,
+			    dots:true,
+			    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:1
+		        },
+		        1000:{
+		            items:1
+		        }
+    		}
+			})
+				$('.chotha').owlCarousel({
+			    stagePadding: 0,
+			   	loop:false,
+			    margin:0,
+			    nav:false,
+			    dots:true,
+			    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:4
+		        },
+		        1000:{
+		            items:4
+		        }
+    		}
+			})
+			</script>
+
+</body>
+</html>
